@@ -1,22 +1,6 @@
---[[Subscribe to Zaptosis on YouTube for more awesome scripts!
-youtube.com/zaptosis // zaptosis.com
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-███▀▀▀███░░░░░░░░░░░░░░░░░░░██░░░░░░░░░░░░░░░░░░░░██░░░░░░░░░
-█▀░░░███░░░░░░░░░░░░░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-▀░░░███░░▄█▀██▄░▀████████▄██████░░▄██▀██▄░▄██▀██████░░▄██▀███
-░░░███░░██░░░██░░░██░░░▀██░░██░░░██▀░░░▀████░░░▀▀░██░░██░░░▀▀
-░░███░░░▄▄█████░░░██░░░░██░░██░░░██░░░░░██▀█████▄░██░░▀█████▄
-░███░░░▄██░░░██░░░██░░░▄██░░██░░░██▄░░░▄███▄░░░██░██░░█▄░░░██
-█████████████▀██▄░██████▀░░░▀████░▀█████▀░██████▀████▄██████▀
-░░░░░░░░░░░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░▄████▄░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-]]
---Script found on this guys GitHub: https://github.com/LOOF-sys
-
 assert(Drawing, 'exploit not supported')
 
-if not syn and not PROTOSMASHER_LOADED then print'Unnamed ESP only officially supports Synapse and Protosmasher! If you\'re an exploit developer and have added drawing API to your exploit, try setting syn as true then checking if that works, otherwise, DM me on discord @ cppbook.org#1968 or add an issue to the Unnamed ESP Github Repository and I\'ll see it through email!' end
+if not syn and not PROTOSMASHER_LOADED then print'madebyjesus' end
 
 local UserInputService	= game:GetService'UserInputService';
 local HttpService	= game:GetService'HttpService';
@@ -73,7 +57,7 @@ local QUAD_SUPPORTED_EXPLOIT = table.find(SupportedExploits, Executor) ~= nil
 
 shared.MenuDrawingData	= shared.MenuDrawingData or { Instances = {} };
 shared.InstanceData	= shared.InstanceData or {};
-shared.RSName		= shared.RSName or ('UnnamedESP_by_ic3-' .. HttpService:GenerateGUID(false));
+shared.RSName		= shared.RSName or ('skutrESP_by_jesus' .. HttpService:GenerateGUID(false));
 
 local GetDataName	= shared.RSName .. '-GetData';
 local UpdateName	= shared.RSName .. '-Update';
